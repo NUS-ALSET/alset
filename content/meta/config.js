@@ -15,7 +15,7 @@ module.exports = {
   headerTitle: "NUS ALSET",
   headerSubTitle: "Institute for Application of Learning Science and Educational Technology",
 
-  pathPrefix: "/alset",
+  pathPrefix: "/alset/public",
 
   /* manifest.json */
   manifestName: "HeroBlog - a GatsbyJS starter",
