@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteTitle: "ALSET@NUS", // <title>
+  shortSiteTitle: "ALSET@NUS", // <title> ending for posts and pages
+  siteDescription: "ALSET@NUS",
+  siteUrl: "http://nus.edu.sg/alset/public/",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
   authorName: "NUS ALSET",
-  authorTwitterAccount: "greglobinski",
+  authorTwitterAccount: "alsetnus",
 
   /* info */
   headerTitle: "NUS ALSET",
@@ -18,8 +18,8 @@ module.exports = {
   pathPrefix: "/alset/public",
 
   /* manifest.json */
-  manifestName: "HeroBlog - a GatsbyJS starter",
-  manifestShortName: "HeroBlog", // max 12 characters
+  manifestName: "ALSET@NUS",
+  manifestShortName: "ALSET@NUS", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
@@ -34,8 +34,8 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/NUS-ALSET" },
+    { name: "twitter", url: "https://twitter.com/alsetnus" },
+    { name: "facebook", url: "https://www.facebook.com/ALSET123/" }
   ]
 };
