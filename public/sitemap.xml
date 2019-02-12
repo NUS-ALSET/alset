@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/category/highlights/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/category/technology/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/NUS-hackathon/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/what-we-do-here-at-alset/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/events-for-2019/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/batch-bt1003/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/food-for-thought/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/draft-post/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/category/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-hero-blog.greglobinski.com/alset/public/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/category/highlights/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/ALSET-releases-AR2018/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/Alset-partners-SkillsFutureSingapore/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/alset-Midsemester-Update/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/category/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://nus.edu.sg/alset/public//alset/public/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
