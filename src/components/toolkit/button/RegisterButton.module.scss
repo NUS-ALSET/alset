@@ -1,0 +1,12 @@
+.registerButton {
+  padding: 10px 15px 10px 15px;
+  background-color: rgba($color: #003d7c, $alpha: 0.7);
+  color: white;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.registerButton:hover {
+  background-color: rgba($color: #ef7c00, $alpha: 0.7);
+  transition: all 0.3s;
+}

@@ -8,27 +8,22 @@ const upcomingEvents = [
   {
     details: require("../../content/pages/events/20022019-fellowTeaTembusu/writeup")
       .fellowTeaTembusuDetails,
-    component: require("../../content/pages/events/20022019-fellowTeaTembusu/writeup")
-      .default
+    component: require("../../content/pages/events/20022019-fellowTeaTembusu/writeup").default
   },
   {
-    details: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx")
-      .edmNusDetails,
-    component: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx")
-      .default
+    details: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").edmNusDetails,
+    component: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").default
   },
   {
-    details: require("../../content/pages/events/18032019-NCC/writeup")
-      .nccDetails,
-    component: require("../../content/pages/events/18032019-NCC/writeup")
-      .default
+    details: require("../../content/pages/events/18032019-NCC/writeup").nccDetails,
+    component: require("../../content/pages/events/18032019-NCC/writeup").default
   }
 ];
 
 const highlights = [
   {
     link: "/events/ncc",
-    title: "ALSET for National Coding Championships 2019",
+    title: "6th Annual Singapore National Coding Championships",
     image: require("../../content/assets/pictures/NCCandAOC/ncc2017.jpeg"),
     imageAlt: "students at NCC 2017 competition venue"
   },
@@ -65,10 +60,7 @@ export default function Index() {
         <hr />
         <h2>Upcoming events</h2>
         {upcomingEvents.map(event => (
-          <EventsDateTimeVenue
-            eventInfo={event.details}
-            key={event.details.title}
-          >
+          <EventsDateTimeVenue eventInfo={event.details} key={event.details.title}>
             <event.component />
           </EventsDateTimeVenue>
         ))}
