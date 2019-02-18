@@ -1,0 +1,34 @@
+//to centralise the article
+.article {
+  margin: auto;
+}
+
+.article a {
+  text-decoration: none;
+  color: navy;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+}
+.section img {
+  padding: 0 10px 0 0;
+  width: 40%;
+  height: 40%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  white-space: pre-wrap;
+}
+
+@media (min-width: 580px) {
+  .article {
+    font-size: 18px;
+    max-width: 580px;
+  }
+}

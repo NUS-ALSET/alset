@@ -1,0 +1,26 @@
+.article li {
+  padding: 10px;
+}
+
+.mapLink {
+  padding: 10px;
+
+  // prevent padding from extending outside of containing div
+  display: inline-block;
+}
+
+.mapImage {
+  width: 100%;
+}
+
+//to centralise the article
+.article {
+  margin: auto;
+}
+
+@media (min-width: 580px) {
+  .article {
+    font-size: 18px;
+    max-width: 580px;
+  }
+}

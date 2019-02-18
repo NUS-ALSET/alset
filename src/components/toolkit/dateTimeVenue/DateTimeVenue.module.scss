@@ -1,0 +1,35 @@
+.section {
+  display: flex;
+}
+
+.section img {
+  padding: 10px;
+}
+
+.section p {
+  margin: 0;
+  padding: 10px;
+}
+
+.button {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.sectionLeader {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 580px) {
+  .stretchSection {
+    width: 100%;
+    flex-shrink: 0;
+  }
+}

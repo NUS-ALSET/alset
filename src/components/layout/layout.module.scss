@@ -1,0 +1,17 @@
+@import "./header4Tabs/header4Tabs.module.scss";
+
+.main {
+  position: absolute;
+  top: 54px;
+  padding: 0 1rem 0 1rem;
+
+  // to centralise the contents
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: $minWidth) and (min-height: $maxHeight) {
+  .main {
+    top: 72px;
+  }
+}
