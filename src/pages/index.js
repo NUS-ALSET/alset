@@ -3,6 +3,7 @@ import Layout from "../components/layout/layout";
 import styles from "./pages.module.scss";
 import EventsDateTimeVenue from "../../src/components/toolkit/dateTimeVenue/EventsDateTimeVenue";
 import { Link } from "gatsby";
+import SEO from "../components/seo";
 
 const upcomingEvents = [
   {
@@ -51,6 +52,7 @@ export function HighlightSection(props) {
 export default function Index() {
   return (
     <Layout>
+      <SEO title="Home" />
       <article className={styles.article}>
         <h1>ALSET: Translational Research Unit</h1>
         <h2>Highlights</h2>

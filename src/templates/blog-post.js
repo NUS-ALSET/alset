@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout/layout";
 import SEO from "../components/seo";
+import styles from '../pages/pages.module.scss'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
+        <article className={styles.article}>
         <h1>{post.frontmatter.title}</h1>
         <p>{post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -32,6 +34,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        </article>
       </Layout>
     );
   }

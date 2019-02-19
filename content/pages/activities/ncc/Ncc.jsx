@@ -5,6 +5,7 @@ import UtownLT51Map from "../../../assets/pictures/map/UtownLT51Map.png";
 import aoc from "../../../assets/pictures/NCCandAOC/AOC2018.jpg";
 import nccStudents from "../../../assets/pictures/NCCandAOC/ncc2017students.jpeg";
 import Layout from "../../../../src/components/layout/layout";
+import SEO from "../../../../src/components/seo";
 
 import DateTimeVenue from "../../../../src/components/toolkit/dateTimeVenue/DateTimeVenue";
 import SeeMoreComponent from "../../../../src/components/toolkit/seeMoreComponent/SeeMoreComponent";
@@ -18,6 +19,7 @@ export default function Ncc() {
   };
   return (
     <Layout>
+      <SEO title="NCC2019" />
       <article className={styles.article}>
         <h2>ALSET for National Coding Championships 2019</h2>
         <h3>Overview</h3>

@@ -1,10 +1,13 @@
 import React from "react";
 
 import Layout from "../../../../src/components/layout/layout";
+import SEO from "../../../../src/components/seo";
 import styles from "./EdmNus.module.scss";
 
 import { DateTimeVenueWithRegistration } from "../../../../src/components/toolkit/dateTimeVenue/DateTimeVenue";
 import SeeMoreComponent from "../../../../src/components/toolkit/seeMoreComponent/SeeMoreComponent";
+
+import EDMInfographic from "../../../assets/pictures/workshops/3DM_info.jpg";
 
 export default function EdmNus() {
   const eventInfo = {
@@ -17,6 +20,7 @@ export default function EdmNus() {
   return (
     <Layout>
       <article className={styles.article}>
+        <SEO title="3DM@NUS" />
         <h2>ALSET for Data-Driven Decision-Making (3DM@NUS) 2019</h2>
         <h3>Overview</h3>
         <p>
@@ -31,6 +35,7 @@ export default function EdmNus() {
           teams will prototype solutions to improve their chosen decision and present their efforts
           to NUS decision-makers.
         </p>
+        <img src={EDMInfographic} alt="event infographic" className={styles.image} />
         <h3>Details:</h3>
         <p>
           Registration Opening: Friday, February 1, 2019

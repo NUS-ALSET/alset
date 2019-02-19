@@ -12,8 +12,8 @@ class Layout extends React.Component {
       listItems: [
         // { link: "#challenges", name: "Challenges" },
         // { link: "/events", name: "Events" },
-        // { link: "http://nus.edu.sg/alset/translation.html", name: "About" },
-        // { link: "/blog", name: "Blog" }
+        { link: "http://nus.edu.sg/alset/translation.html", name: "About" },
+        { link: "/blog", name: "Blog" }
       ]
     };
     return (
