@@ -4,7 +4,7 @@ export const nccDetails = {
   date: "18 Mar 2019",
   time: "9:00am to 5:00pm",
   venue: "Lecture Theatre (LT) 50, LT 51 and Auditorium 1, Stephen Riady Centre, University Town",
-  title: "6th Annual Singapore National Coding Championships",
+  title: "6th Annual Singapore National Coding Championships \nLive Finals",
   excerpt: "The 6th Annual National Coding Championships is here again with a big bang!"
 };
 

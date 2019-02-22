@@ -15,5 +15,9 @@ Having tallied the performance of the students, the qualifying schools were then
 
 ![audience looking at slides on Finals event](../../assets/pictures/talks/130219talkjs1.JPG "Prof Boesch walks through the live Finals")
 
+Watch the video recording of the talk courtesy of Engineers.sg
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EEhkHUZ-wLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 About the Author: <br/>
-_Shun works at the ALSET Translation Research Unit as a Research Assistant. Besides writing code in the day, he likes attending meetups and taking long walks_
+_Shun works at the ALSET Translation Research Unit as a Research Assistant. Besides writing code in the day, he likes attending meetups and taking long walks._

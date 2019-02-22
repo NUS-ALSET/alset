@@ -7,17 +7,20 @@ import SEO from "../components/seo";
 
 const upcomingEvents = [
   {
-    details: require("../../content/pages/events/20022019-fellowTeaTembusu/writeup")
-      .fellowTeaTembusuDetails,
-    component: require("../../content/pages/events/20022019-fellowTeaTembusu/writeup").default
-  },
-  {
     details: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").edmNusDetails,
     component: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").default
   },
   {
     details: require("../../content/pages/events/18032019-NCC/writeup").nccDetails,
     component: require("../../content/pages/events/18032019-NCC/writeup").default
+  }
+];
+
+const pastEvents = [
+  {
+    details: require("../../content/pages/events/20022019-fellowTeaTembusu/writeup")
+      .fellowTeaTembusuDetails,
+    component: require("../../content/pages/events/20022019-fellowTeaTembusu/writeup").default
   }
 ];
 
@@ -57,11 +60,18 @@ export default function Events() {
         <h1>ALSET: Translational Research Unit</h1>
         <h2>Highlights</h2>
         {highlights.map(item => (
-          <HighlightSection highlight={item} />
+          <HighlightSection highlight={item} key={item.key} />
         ))}
         <hr />
         <h2>Upcoming events</h2>
         {upcomingEvents.map(event => (
+          <EventsDateTimeVenue eventInfo={event.details} key={event.details.title}>
+            <event.component />
+          </EventsDateTimeVenue>
+        ))}
+        <hr />
+        <h2>Completed events</h2>
+        {pastEvents.map(event => (
           <EventsDateTimeVenue eventInfo={event.details} key={event.details.title}>
             <event.component />
           </EventsDateTimeVenue>

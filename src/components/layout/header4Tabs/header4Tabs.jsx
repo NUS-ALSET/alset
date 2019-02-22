@@ -23,9 +23,9 @@ class Header4Tabs extends React.Component {
         <ul className={styles.headerMenu}>
           {listItems.map(item => (
             <li key={item.name}>
-              <a href={item.link} key={item.name}>
+              <Link to={item.link} key={item.name}>
                 {item.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
