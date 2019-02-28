@@ -35,3 +35,19 @@ iframe {
     height: 240px;
   }
 }
+@media (min-width: 580px) {
+  .article {
+    font-size: 18px;
+    max-width: 580px;
+  }
+}
+@media (min-width: 880px) {
+  .article {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 760px;
+  }
+  iframe {
+    height: 400px;
+  }
+}

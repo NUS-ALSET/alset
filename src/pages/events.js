@@ -7,16 +7,16 @@ import SEO from "../components/seo";
 
 const upcomingEvents = [
   {
-    details: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").edmNusDetails,
-    component: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").default
-  },
-  {
     details: require("../../content/pages/events/18032019-NCC/writeup").nccDetails,
     component: require("../../content/pages/events/18032019-NCC/writeup").default
   }
 ];
 
 const pastEvents = [
+  {
+    details: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").edmNusDetails,
+    component: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").default
+  },
   {
     details: require("../../content/pages/events/20022019-fellowTeaTembusu/writeup")
       .fellowTeaTembusuDetails,
@@ -60,7 +60,7 @@ export default function Events() {
         <h1>ALSET: Translational Research Unit</h1>
         <h2>Highlights</h2>
         {highlights.map(item => (
-          <HighlightSection highlight={item} key={item.key} />
+          <HighlightSection highlight={item} key={item.title} />
         ))}
         <hr />
         <h2>Upcoming events</h2>

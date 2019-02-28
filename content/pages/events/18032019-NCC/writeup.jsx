@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 export const nccDetails = {
   date: "18 Mar 2019",
@@ -21,6 +22,9 @@ export default function NCC() {
         The top 12 schools in the junior and senior categories can elect to send 2 teams to the
         competition. This year, join us again in the finals on 18th March 2019 at NUS. To watch the
         students code their way to success through gaming is an adrenaline pumping experience!
+      </p>
+      <p>
+        Click <Link to="/events/ncc">here</Link> to view the main events page.
       </p>
     </article>
   );

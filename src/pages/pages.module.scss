@@ -17,9 +17,18 @@
   align-items: center;
 }
 .section img {
-  padding: 0 10px 0 0;
+  padding: 0 1em 0 0;
   width: 40%;
   height: 40%;
+}
+
+.sectionBlog {
+  margin: 1rem 0 1rem 0;
+  height: 100%;
+  align-items: flex-start;
+}
+.sectionBlog h3 {
+  margin-top: 0;
 }
 
 h1 {
@@ -34,5 +43,13 @@ h3 {
   .article {
     font-size: 18px;
     max-width: 580px;
+  }
+}
+
+@media (min-width: 880px) {
+  .article {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 760px;
   }
 }

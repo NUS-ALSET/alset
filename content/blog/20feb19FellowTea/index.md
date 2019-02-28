@@ -1,6 +1,7 @@
 ---
 title: "Fellow's Tea with ALSET@NUS"
 date: "2019-02-20"
+image: "../../assets/pictures/talks/200219fellowtea1.jpg"
 ---
 
 An evening of insightful coversation and lively activities took place as Prof Y.C. Tay hosted ALSET for Fellow's Tea at the cosy Master's Common Lounge in Tembusu College.

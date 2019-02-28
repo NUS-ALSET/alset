@@ -18,15 +18,18 @@ class BlogIndex extends React.Component {
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug;
             return (
-              <div key={node.fields.slug}>
-                <h3>
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-              </div>
+              <article className={`${styles.sectionBlog} ${styles.section}`}>
+                <img src={node.frontmatter.image.childImageSharp.resolutions.src} />
+                <div key={node.fields.slug}>
+                  <h3>
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                  <small>{node.frontmatter.date}</small>
+                  <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                </div>
+              </article>
             );
           })}
         </section>
@@ -54,6 +57,15 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            image {
+              id
+              childImageSharp {
+                id
+                resolutions {
+                  src
+                }
+              }
+            }
           }
         }
       }

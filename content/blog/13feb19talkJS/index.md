@@ -1,6 +1,7 @@
 ---
 title: "From Game-based Learning to Game Creation @ Talk.js"
 date: "2019-02-13"
+image: "../../assets/pictures/talks/130219talkjs4.JPG"
 ---
 
 Speaking to a group of developers attending the monthly Talk.js meetup at downtown Viki Rakuten Office, Prof Boesch introduced them to ALSET's work in nurturing young coders through Game-based Learning. After describing the coding platform CodeCombat, he went on to share about how many students experience their first time writing code through CodeCombat.

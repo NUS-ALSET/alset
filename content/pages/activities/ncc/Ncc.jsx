@@ -22,8 +22,8 @@ export default function Ncc() {
       <SEO title="NCC2019" />
       <article className={styles.article}>
         <h2>ALSET for National Coding Championships 2019</h2>
-        <h3>Overview</h3>
         <img className={styles.mapImage} src={nccStudents} alt="students at ncc 2017" />
+        <h3>Overview</h3>
         <p>
           The National Coding Championships invites students to experience learning to code in a fun
           and engaging way. Guiding their on-screen characters through a series of progressively
@@ -34,6 +34,14 @@ export default function Ncc() {
           enthusiasts. All it takes for students to get started is just 5 minutes to setup and write
           some code, which can then open up a world of new opportunities.
         </p>
+        {/* <iframe
+          src="https://www.facebook.com/video/embed?video_id=2012100429004824"
+          frameborder="0"
+          allowfullscreen="true"
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true"
+          title="NCC-registration-video"
+        /> */}
         <a href="#eligibility">Check your eligibility</a>
         <br />
         <br />
@@ -53,12 +61,10 @@ export default function Ncc() {
         <h3>Registration</h3>
         <p>Registration Process Video:</p>
         <iframe
-          src="https://www.facebook.com/video/embed?video_id=169695770611628"
+          src="https://www.youtube.com/embed/UlaYfr_vt9s"
           frameborder="0"
-          allowfullscreen="true"
-          mozallowfullscreen="true"
-          webkitallowfullscreen="true"
-          title="NCC-registration-video"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
         />
         <p>
           Please register under the category below that applies to you (watch video above if stuck):

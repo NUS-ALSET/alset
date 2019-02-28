@@ -1,6 +1,7 @@
 ---
 title: "Ace of Coders 2018: An insider’s-eye-view of an outsider"
 date: "2019-01-01"
+image: "../../assets/pictures/NCCandAOC/AOC2018image2.png"
 ---
 
 It could have been yet another lazy Saturday for me, if I had not volunteered to help the Translational Team of ALSET in organising the final day of the e-sport event, Ace of Coders 2018 at the Stephan Riady Centre, Utown. For a person like me who is a complete illiterate in digital literacy, it was going to be an experimental experience. Students and their parents had reached the venue much earlier than the scheduled time. I was told that these high school and junior college students were the shortlisted few from the online coding competition that was held through October 2018. They were all set to code their game, to decide the ultimate winner. Their energy and eagerness to code (or to game or to compete) was absolutely contagious. It was my extra caffeine shot to kick-start the day.
