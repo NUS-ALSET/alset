@@ -67,7 +67,8 @@ export default function Ncc() {
           allowfullscreen
         />
         <p>
-          Please register under the category below that applies to you (watch video above if stuck):
+          Please register under the category below that applies to you (watch video above as a
+          guide):
           <ul>
             <li>
               <a href="https://achievements-prod.firebaseapp.com/#/cohorts/-LXNipwyqwMCw4tOGMr0">
