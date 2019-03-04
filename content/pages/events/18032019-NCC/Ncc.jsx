@@ -47,7 +47,7 @@ export default function Ncc() {
         <br />
         <RegisterButton registrationLink="#register" />
         <p>
-          Furthermore, the top 12 qualifying schools in the junior and senior categories will be
+          Furthermore, the top 16 qualifying schools in the junior and senior categories will be
           invited to attend the finals of the 2019 ALSET for National Coding Championships (18 Mar
           2019) with attractive <a href="#prizes">prizes</a> to be worn!
         </p>
@@ -103,7 +103,7 @@ export default function Ncc() {
           </SeeMoreComponent>
         </DateTimeVenue>
         <p name="prizes">
-          <strong>Qualification Cut Off:</strong> Sunday, March 10th, 5pm. (~7 days prior to the
+          <strong>Qualification Cut Off:</strong> Tuesday, March 12th, 5pm. (~5 days prior to the
           live event)
         </p>
         <p>
@@ -112,8 +112,7 @@ export default function Ncc() {
         <h3>Prizes:</h3>
         <ul>
           <li>Recognition for top qualifying schools in each category</li>
-          <li>Certificate of Participation for all qualifiers</li>
-          <li name="eligibility">Certificate of Excellence for all semifinalists</li>
+          <li name="eligibility">Certificate of Participation for all qualifiers</li>
           <li>Honor and glory for all participating schools</li>
         </ul>
         <h3>Eligibility:</h3>
@@ -127,7 +126,7 @@ export default function Ncc() {
         </ul>
         <h3>Current Finals Qualification Rankings</h3>
         <p>
-          The top 12 schools in each of the junior and senior categories will be invited to the
+          The top 16 schools in each of the junior and senior categories will be invited to the
           Finals on 18 March 2019.
         </p>
         <ul>
@@ -173,7 +172,7 @@ export default function Ncc() {
                 Sec 4s and sec5s will be participating as part of the Senior Category.
               </li>
               <li>
-                The top 12 schools in each of the junior and senior categories may elect to send 2
+                The top 16 schools in each of the junior and senior categories may elect to send 2
                 teams to the competition. For mixed schools, the school must send two boys and two
                 girls who participated in the qualification round (in two teams).
               </li>
@@ -201,7 +200,7 @@ export default function Ncc() {
                 from their school who have completed the most Achievements activities.
               </li>
               <li>
-                The top 12 qualifying schools will be determined by which schools can get the most
+                The top 16 qualifying schools will be determined by which schools can get the most
                 students to spend approximately 5-minutes to complete their first Achievements
                 activity. For instance, the first Code Combat level only requires students to enter
                 three lines of code:
