@@ -8,11 +8,11 @@ exports.createPages = ({ graphql, actions }) => {
 
   pageList = [
     {
-      path: "activities/ncc/Ncc",
+      path: "events/18032019-NCC/Ncc",
       slug: "/events/ncc"
     },
     {
-      path: "activities/edmNus/EdmNus",
+      path: "events/25022019-3DM@NUS/EdmNus",
       slug: "/events/3dm@nus"
     }
   ];

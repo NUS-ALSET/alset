@@ -34,7 +34,7 @@ const highlights = [
   {
     link: "/events/3dm@nus",
     title: "ALSET for Data-Driven Decision-Making \n (3DM@NUS)",
-    image: require("../../content/pages/activities/edmNus/edm.jpg"),
+    image: require("../../content/assets/pictures/workshops/edm.jpg"),
     imageAlt: "team discussion in progress"
   }
 ];
