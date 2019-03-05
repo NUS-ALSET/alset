@@ -36,7 +36,7 @@ export default function Ncc() {
         </p>
         <p>Intro Video:</p>
         <iframe
-          src="https://www.youtube.com/embed/KeQoNG8dRwk"
+          src="https://www.youtube.com/embed/mmtEUbLi2gI"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
