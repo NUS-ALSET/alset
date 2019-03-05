@@ -34,6 +34,13 @@ export default function Ncc() {
           enthusiasts. All it takes for students to get started is just 5 minutes to setup and write
           some code, which can then open up a world of new opportunities.
         </p>
+        <p>Intro Video:</p>
+        <iframe
+          src="https://www.youtube.com/embed/KeQoNG8dRwk"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
         {/* <iframe
           src="https://www.facebook.com/video/embed?video_id=2012100429004824"
           frameborder="0"
