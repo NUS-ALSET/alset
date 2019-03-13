@@ -55,7 +55,7 @@ export function HighlightSection(props) {
 export default function Events() {
   return (
     <Layout>
-      <SEO title="Events" />
+      <SEO title="Student Events" />
       <article className={styles.article}>
         <h1>ALSET: Translational Research Unit</h1>
         <h2>Highlights</h2>
@@ -63,7 +63,7 @@ export default function Events() {
           <HighlightSection highlight={item} key={item.title} />
         ))}
         <hr />
-        <h2>Upcoming events</h2>
+        <h2>Student events</h2>
         {upcomingEvents.map(event => (
           <EventsDateTimeVenue eventInfo={event.details} key={event.details.title}>
             <event.component />

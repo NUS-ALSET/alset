@@ -63,7 +63,7 @@ export default function Index() {
           <HighlightSection highlight={item} key={item.title} />
         ))}
         <hr />
-        <h2>Upcoming events</h2>
+        <h2>Students events</h2>
         {upcomingEvents.map(event => (
           <EventsDateTimeVenue eventInfo={event.details} key={event.details.title}>
             <event.component />
