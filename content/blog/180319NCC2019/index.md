@@ -48,7 +48,7 @@ And so it came down to the finals. Everyone watched with bated breath as the tea
 
 On the Junior side, Team A from Dunman High School prevailed - having applied an effective resource gathering strategy and harnessed the ability of heavy combat units to make its way through the bracket.
 
-![1st and 2nd place of senior and junior categories](../../assets/pictures/NCCandAOC/NCC2019_11.JPG "From left: Singapore Chinese Girls' School (Senior Category Champion), Kevin from ALSET, Dunman High School (Junior Category Champion), Saint Joseph's Institution (Junior Category Runner-up) & Jurong Pioneer Junior College (Senior Category Runner-up)")
+![1st and 2nd place of senior and junior categories](../../assets/pictures/NCCandAOC/NCC2019_11.JPG "From left: Singapore Chinese Girls' School (Senior Category Champion), Kevin from ALSET, Dunman High School (Junior Category Champion), St. Joseph's Institution (Junior Category Runner-up) & Jurong Pioneer Junior College (Senior Category Runner-up)")
 
 On the Senior side, Team A from the Singapore Chinese Girls' School emerged as the Champions. They have prioritised resource gathering while also making excellent use of their units' abilities - demonstrating both coding skill and strategy.
 
