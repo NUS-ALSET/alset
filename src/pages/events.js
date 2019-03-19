@@ -5,14 +5,14 @@ import EventsDateTimeVenue from "../../src/components/toolkit/dateTimeVenue/Even
 import { Link } from "gatsby";
 import SEO from "../components/seo";
 
-const upcomingEvents = [
+// const upcomingEvents = [
+// ];
+
+const pastEvents = [
   {
     details: require("../../content/pages/events/18032019-NCC/writeup").nccDetails,
     component: require("../../content/pages/events/18032019-NCC/writeup").default
-  }
-];
-
-const pastEvents = [
+  },
   {
     details: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").edmNusDetails,
     component: require("../../content/pages/events/25022019-3DM@NUS/writeup.jsx").default
@@ -55,7 +55,7 @@ export function HighlightSection(props) {
 export default function Events() {
   return (
     <Layout>
-      <SEO title="Student Events" />
+      <SEO title="Events" />
       <article className={styles.article}>
         <h1>ALSET: Translational Research Unit</h1>
         <h2>Highlights</h2>
@@ -64,13 +64,13 @@ export default function Events() {
         ))}
         <hr />
         <h2>Student events</h2>
-        {upcomingEvents.map(event => (
+        {/* {upcomingEvents.map(event => (
           <EventsDateTimeVenue eventInfo={event.details} key={event.details.title}>
             <event.component />
           </EventsDateTimeVenue>
         ))}
-        <hr />
-        <h2>Completed events</h2>
+        <hr /> */}
+        {/* <h3>Completed events</h3> */}
         {pastEvents.map(event => (
           <EventsDateTimeVenue eventInfo={event.details} key={event.details.title}>
             <event.component />
